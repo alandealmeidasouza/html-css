@@ -101,6 +101,7 @@ article{
 }
 .cadastro:hover{
     color: yellow;
+    background-image: linear-gradient(to right, red, green);
      transform: scale(1.05);
 }
 
