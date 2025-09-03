@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de houver</title>
+    <body>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h1{
+                text-align: center;
+            }
+            div:hover > p{
+                color: red;
+                background-color: aqua;
+               position: relative;
+                bottom: 34px;
+                left: 80px;
+                width: 75px;
+            }
+            div > p{
+                display: none;
+            }
+            div:hover > p{
+                display: block;
+            }
+            
+        </style>
+    </body>
+</head>
+<body>
+    <h1>Exemplos de houver</h1>
+    <p>passe o mouse na frase abaixo.</p>
+    <div>
+        passe aqui
+        <p>olá mundo</p>
+    </div>
+</body>
+</html>

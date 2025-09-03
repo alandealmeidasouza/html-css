@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elemento</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+            font-family:'Times New Roman', Times, serif;
+        }
+        a{
+            color: blueviolet;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited{
+            color: rgb(96, 84, 107);
+        }
+        a:hover{
+           color: red; 
+           text-decoration: underline;
+        }
+        a:hover:visited{
+            color: rgb(107, 27, 27);
+        }
+        a:active{
+            color: yellow;
+        }
+        a:visited:active{
+            color: chartreuse;
+        }
+        a::after{ /*after coloca coisas depois do link*/
+            content: '[Link]⇤'; /*content é o conteúdo que posso adicionar*/
+            font-weight: normal; /*weight é o pesso da fonte ou grossura*/
+            text-decoration: none; /*não tirou o underline*/
+        }
+        a::before{
+            content: '⇥';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>links personalizados</h1>
+    <h2>Acesse as redes sociais:</h2>
+    <ul>
+    <li><a href="https://www.youtube.com/" target="_blank" rel="external">@Youtube.com</a></li>
+    <li><a href="https://web.whatsapp.com/" target="_blank" rel="external">@whatzap.com</a></li>
+    <li><a href="https://www.instagram.com/" target="_blank" rel="external">@whatzap.con</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+
+h1#principal{
+    text-align: center;
+    font-family: 'mozilla headline';
+    background-color: aquamarine;
+}
+h1{
+    font-family: 'mozilla headline';
+}
+.iniciante{
+color: green;
+text-align: justify;
+}
+.basico{
+color: red;
+text-align: justify;
+}
+.mediano{
+color: rgb(114, 114, 0);
+text-align: justify;
+}
+.avançado{
+color: blueviolet;
+text-align: justify;
+}
+p{
+    text-indent: 20px;
+}

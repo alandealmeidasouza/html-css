@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em Html</title>
+</head>
+<body>
+    <h1>Adicionando imagens dinâmicas</h1>
+    <p>Vamos testar tamanhos de imagens diferentes para moldar o site de acordo com o tamanho da tela do usuário e assim oferecer ao visitante a melhor qualidade de navegação possível.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+       <img src="imagens/grande.png" alt="grande">
+    </picture>
+
+    <audio preload="metadata" controls autoplay loop> 
+        <source src="audio/Cher - Believe (Official Music Video) [4K Remaster].mp3" type="audio/mp3">
+        <source src="audio/Cher - Believe (Official Music Video) [4K Remaster].ogg" type="audio/ogg">
+        <source src="audio/Cher - Believe (Official Music Video) [4K Remaster].wav" type="audio/wav">
+    </audio>
+    <p>
+        <a href="audio/cher believe dowload.zip" type="aplication/zip">Baixar música.</a>
+    </p>
+    
+</body>
+</html>

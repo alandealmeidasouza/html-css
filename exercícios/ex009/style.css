@@ -1,0 +1,40 @@
+@charset "utf8";
+
+@font-face {
+    font-family: desenhada ;
+    src: url(fonts/Yourmate.otf) format('opentype');
+    /*Se quiser colocar mais fontes é só por vírgula e escrever url e o format novamente. opentype - otf e truetype - ttf*/
+}
+
+body{
+    background-image: linear-gradient(to right, #D8FFDB,#008F8C);
+    font-family: 'mozilla headline';
+}
+main{
+    background-color: white ;
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #004b4852;
+}
+img{
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    width: 40%;
+    box-shadow: 1px 1px 11px #008f8dc0;
+}
+h1{
+    text-align: center;
+    color: #ce8600;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    font-family: desenhada;
+}
+h2{
+    color: #023535bb;
+}
+p{
+    text-align: justify;
+}
+
